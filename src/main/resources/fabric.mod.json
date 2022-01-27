@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "excessive_realism",
   "version": "${version}",
 
-  "name": "Example Mod",
+  "name": "Excessive Realism",
   "description": "This is an example description! Tell everyone what your mod is about!",
   "authors": [
-    "Me!"
+    "Rakkis157"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
@@ -19,7 +19,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "rakkis157.excessive_realism.mixin.ExcessiveRealismMixin"
     ]
   },
   "mixins": [
