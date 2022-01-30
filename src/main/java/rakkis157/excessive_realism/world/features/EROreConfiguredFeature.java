@@ -18,8 +18,4 @@ public class EROreConfiguredFeature {
     //Ironstone
     public static final ConfiguredFeature<?, ?> ORE_IRONSTONE = ConfiguredFeatures.register("ore_ironstone", Feature.ORE.configure(
             new OreFeatureConfig(OreConfiguredFeatures.BASE_STONE_OVERWORLD, ERBlock.IRONSTONE.getDefaultState(), 64)));
-
-    //Meteoric Iron
-    /*public static final ConfiguredFeature<?, ?> ORE_METEORIC_IRON_DESERT = ConfiguredFeatures.register("ore_meteoric_iron_desert", Feature.ORE.configure(
-            new OreFeatureConfig(EROreConfiguredFeatures.BASE_SAND_OVERWORLD, ERBlock.METEORIC_IRON.getDefaultState(), 8)));*/
 }

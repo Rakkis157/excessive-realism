@@ -15,10 +15,8 @@ import net.fabricmc.fabric.api.biome.v1.BiomeModifications;
 
 public class ERConfiguredFeatures {
 
-
-
     public static void init() {
-        System.out.println("Initializing " + ExcessiveRealism.MOD_NAME + " Features");
+        ExcessiveRealism.LOGGER.info("Initializing " + ExcessiveRealism.MOD_NAME + " Features");
 
         //Banded Iron
         placedFeature("ore_banded_iron", EROreFeatures.BANDED_IRON);
@@ -42,16 +40,11 @@ public class ERConfiguredFeatures {
                 GenerationStep.Feature.UNDERGROUND_ORES, RegistryKey.of(Registry.PLACED_FEATURE_KEY,
                 new Identifier(ExcessiveRealism.MOD_ID, "ore_ironstone")));
 
-        //Meteoric Iron
-        /*placedFeature("ore_meteoric_iron_desert", EROreFeatures.METEORIC_IRON_DESERT);
-        BiomeModifications.addFeature(BiomeSelectors.includeByKey(BiomeKeys.DESERT),
-                GenerationStep.Feature.UNDERGROUND_ORES, RegistryKey.of(Registry.PLACED_FEATURE_KEY,
-                new Identifier(ExcessiveRealism.MOD_ID, "ore_meteoric_iron_desert")));*/
-
-
-
+        /* TODO:
+        *   Add Meteoric Iron
+        */
     }
-
+    
     public static void placedFeature(String name, PlacedFeature placedFeature){
         Registry.register(BuiltinRegistries.PLACED_FEATURE, new Identifier(ExcessiveRealism.MOD_ID, name), placedFeature);
     }

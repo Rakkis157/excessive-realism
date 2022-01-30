@@ -19,14 +19,12 @@ public class ERItem {
      *   4. Add Recipes         in data/excessive_realism/recipes
      */
 
-
-
     private static Item registerItem(String name){
         return Registry.register(Registry.ITEM, new Identifier(ExcessiveRealism.MOD_ID, name),
                 new Item(new FabricItemSettings().group(ERItemGroup.GROUP)));
     }
 
     public static void init(){
-        System.out.println("Initializing "+ ExcessiveRealism.MOD_NAME + " Items");
+        ExcessiveRealism.LOGGER.info("Initializing "+ ExcessiveRealism.MOD_NAME + " Items");
     }
 }

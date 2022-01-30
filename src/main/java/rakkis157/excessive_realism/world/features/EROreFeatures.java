@@ -27,10 +27,10 @@ public class EROreFeatures {
             RarityFilterPlacementModifier.of(10), CountPlacementModifier.of(2),
             HeightRangePlacementModifier.uniform(YOffset.fixed(16), YOffset.fixed(80)));
 
-    // Meteoric Iron
-    /*public static PlacedFeature METEORIC_IRON_DESERT = EROreConfiguredFeature.ORE_METEORIC_IRON_DESERT.withPlacement(
-            RarityFilterPlacementModifier.of(10), CountPlacementModifier.of(4),
-            HeightRangePlacementModifier.uniform(YOffset.fixed(60), YOffset.fixed(90)));*/
+    /*TODO:
+    *   Create a method to create large ore veins. Refer to net.minecraft.world.gen.NoiseColumnSampler to view
+    *   relevant vanilla code.
+    */
 }
 
 

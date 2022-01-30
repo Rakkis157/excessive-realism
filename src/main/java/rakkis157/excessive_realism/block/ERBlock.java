@@ -11,8 +11,6 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import rakkis157.excessive_realism.ExcessiveRealism;
 import rakkis157.excessive_realism.item.ERItemGroup;
 
@@ -70,6 +68,6 @@ public class ERBlock {
     }
 
     public static void init(){
-        System.out.println("Initializing "+ ExcessiveRealism.MOD_NAME + " Blocks");
+        ExcessiveRealism.LOGGER.info("Initializing "+ ExcessiveRealism.MOD_NAME + " Blocks");
     }
 }
