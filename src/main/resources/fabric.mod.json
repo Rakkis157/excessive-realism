@@ -14,16 +14,16 @@
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/excessive_realism/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "rakkis157.excessive_realism.mixin.ExcessiveRealismMixin"
+      "rakkis157.excessive_realism.ExcessiveRealism"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "excessive_realism.mixins.json"
   ],
 
   "depends": {
