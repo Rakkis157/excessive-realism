@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "excessive_realism:ironstone"
+  },
+  "result": "minecraft:iron_ingot",
+  "experience": 0.5,
+  "cookingtime": 100
+}
