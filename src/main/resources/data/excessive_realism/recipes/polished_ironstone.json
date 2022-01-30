@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SS",
+    "SS"
+  ],
+  "key": {
+    "S": {
+      "item": "excessive_realism:ironstone"
+    }
+  },
+  "result": {
+    "item": "excessive_realism:polished_ironstone",
+    "count": 4
+  }
+}

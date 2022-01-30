@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "excessive_realism:block/banded_iron_top",
+    "bottom": "excessive_realism:block/banded_iron_top",
+    "side": "excessive_realism:block/banded_iron"
+  }
+}

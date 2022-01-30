@@ -6,6 +6,7 @@ import org.slf4j.LoggerFactory;
 import rakkis157.excessive_realism.block.ERBlock;
 import rakkis157.excessive_realism.item.ERItem;
 import rakkis157.excessive_realism.item.ERItemGroup;
+import rakkis157.excessive_realism.world.features.ERConfiguredFeatures;
 
 public class ExcessiveRealism implements ModInitializer {
 	// This logger is used to write text to the console and the log file.
@@ -23,6 +24,8 @@ public class ExcessiveRealism implements ModInitializer {
 
 		ERItem.init();
 		ERBlock.init();
+		ERConfiguredFeatures.init();
+
 		LOGGER.info("Setup for " + MOD_NAME + " Complete.");
 	}
 }
